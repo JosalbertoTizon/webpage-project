@@ -1,5 +1,6 @@
-* {
+body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 .header,
@@ -8,7 +9,7 @@
 }
 
 .header {
-  padding: 10px 120px;
+  padding: 10px 200px;
 }
 
 .header-logo,
@@ -37,26 +38,62 @@
 button {
   background-color: #3882F6;
   color: white;
-  padding: 5px 20px;
+  padding: 8px 32px;
   border-radius: 5px;
   border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info {
+  text-align: center;
+  padding: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.image-text-container {
+  width: 150px;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  border: 4px solid blue;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .info-header {
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
+  margin-bottom: 50px;
 }
 
 .quote-container {
+  font-size: 22px;
   background-color: #E5E7EB;
+  padding: 150px 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   color: #1F2937;
+}
+
+.quote-author {
+  font-weight: 700;
+  align-self: flex-end;
 }
 
 .sign-up-alternative {
@@ -77,9 +114,11 @@ button {
 
 .sign-up-texts {
   display: flex;
+  gap: 30px;
   margin-bottom: 100px;
 }
 
-.placeholder {
-  background-color: gray;
+.hero-image {
+  width: 500px;
+  height: auto;
 }

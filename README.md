@@ -1,1 +1,1 @@
-This repository is html/css a project from The Odin Project
+This repository is my solution to a project from The Odin Project
